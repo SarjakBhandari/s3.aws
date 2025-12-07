@@ -3,10 +3,10 @@ name: CI/CD For cloud decode
 on:
   push:
     branches:
-      - main   # space before 'main'
+      - main   
 
 jobs:
-  build-and-deploy:   # no dash here
+  build-and-deploy:   
     runs-on: ubuntu-latest
 
     steps:
